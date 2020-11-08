@@ -36,7 +36,7 @@ func SavePortfolio(portfolio entity.Portfolio) error {
 	if err != nil {
 		log.Fatal(err)
 	}
-	defer stmt.Close() // Prepared statements take up server resources and should be closed after use.
+	defer stmt.Close()
 
 	result, err := stmt.Exec(portfolio.Company, portfolio.WorkOn, portfolio.Description, portfolio.Developed, portfolio.Skills, portfolio.Packages, portfolio.Video, portfolio.Website, portfolio.AppUrl)
 	fmt.Println(&result, "< resule")
