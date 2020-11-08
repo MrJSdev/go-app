@@ -1,0 +1,10 @@
+{
+  "name": "Go App, Mr.JS",
+  "description": "Go Getting Started Example App",
+  "keywords": [
+    "go-app",
+    "mrjs",
+  ],
+  "website": "http://github.com/heroku/go-mrjs-app",
+  "repository": "http://github.com/heroku/go-mrjs-app"
+}
